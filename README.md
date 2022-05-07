@@ -1,6 +1,6 @@
 <!--Overview-->
 # RadarSurvey-Autonomous
-Survey list for radar datasets, papers, and codes (**Autonomous**)  
+Survey list for radar datasets, papers, and codes (**Autonomous+Robot**)  
 Contact: jhchoi93@postech.ac.kr
 
 <!--Dataset-->
@@ -13,9 +13,10 @@ Contact: jhchoi93@postech.ac.kr
 | Radar RobotCar | 2020 | RA | - | C+L+O | T, S | [Paper](https://arxiv.org/pdf/1909.01300.pdf)<br> [Website](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/documentation) | * Oxford Univ. |
 | MulRan | 2020 | RA | - | L+O | T, S | [Paper](https://rpm.snu.ac.kr/publications/gskim-2020-icra.pdf)<br> [Website](https://sites.google.com/view/mulran-pr/home) | * Seoul Nat. Univ.<br> * Contact |
 | CARRADA | 2020 | RAD, (RA+RD), PC | 2D bbox (RA, RD), Seg.mask | C | T | [Paper](https://arxiv.org/pdf/2005.01456.pdf)<br> [Github](https://github.com/valeoai/carrada_dataset) | * Valeo AI<br> * 3 Class |
+| CRUW | 2021 | RA | Confidence map | C | T | [Paper](https://openaccess.thecvf.com/content/WACV2021/papers/Wang_RODNet_Radar_Object_Detection_Using_Cross-Modal_Supervision_WACV_2021_paper.pdf)<br> [Website](https://www.cruwdataset.org/home) | * Univ. Washington<br> * 3 Class |
 | RadarScenes | 2021 | PC | Point-wise | C+O | T | [Paper](https://arxiv.org/pdf/2104.02493.pdf)<br> [Website](https://radar-scenes.com/) | * Mercedes-Benz AG<br> * 11 Class |
 | RADDet | 2021 | RAD, (RA+RD) | 3D bbox (RAD) | C | T | [Paper](https://arxiv.org/pdf/2105.00363.pdf)<br> [Github](https://github.com/ZhangAoCanada/RADDet) | * Univ. Ottawa |
-| RADIal | 2022 | ADC, RAD, (RA+RD), PC | 2D bbox (RA, RD), Seg. mask | C+L+O | <span style="color:red">C</span>, T | [Paper](https://arxiv.org/pdf/2112.10646.pdf)<br> [Github](https://github.com/valeoai/RADIal) | * Valeo AI |
+| RADIal | 2022 | ADC, RAD, (RA+RD), PC | 2D bbox (RA, RD), Seg. mask | C+L+O | <span style="color:red">C</span>, T | [Paper](https://arxiv.org/pdf/2112.10646.pdf)<br> [Github](https://github.com/valeoai/RADIal) | * Valeo AI<br> * 1 Class |
 
 > **Description for Abbreviations**
 > * **[Data Type]** ADC: analog-to-digital converted data, RAD: range-angle-Doppler tensor, PC: point cloud
