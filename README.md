@@ -12,11 +12,12 @@ made by Jae-Ho Choi
 | Radar RobotCar | 2020 | RA | - | C+L+O | T, S | [Paper](https://arxiv.org/pdf/1909.01300.pdf)<br> [Website](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/documentation) | * Oxford Univ. |
 | MulRan | 2020 | RA | - | L+O | T, S | [Paper](https://rpm.snu.ac.kr/publications/gskim-2020-icra.pdf)<br> [Website](https://sites.google.com/view/mulran-pr/home) | * Seoul Nat. Univ.<br> * Contact |
 | CARRADA | 2020 | RAD, (RA+RD), PC | 2D bbox (RA, RD), Seg.mask | C | T | [Paper](https://arxiv.org/pdf/2005.01456.pdf)<br> [Github](https://github.com/valeoai/carrada_dataset) | * Valeo AI<br> * 3 Class |
+| RADDet | 2021 | RAD, (RA+RD) | 3D bbox (RAD) | C | T | [Paper](https://arxiv.org/pdf/2105.00363.pdf)<br> [Github](https://github.com/ZhangAoCanada/RADDet) | * Univ. Ottawa |
 | RADIal | 2022 | ADC, RAD, (RA+RD), PC | 2D bbox (RA, RD), Seg. mask | C+L+O | <span style="color:red">C</span>, T | [Paper](https://arxiv.org/pdf/2112.10646.pdf)<br> [Github](https://github.com/valeoai/RADIal) | * Valeo AI |
 
 > **Description for Abbreviations**
-> * **Data Type** ADC: analog-to-digital converted data, RAD: range-angle-Doppler tensor, PC: point cloud
-> * **Annot. Type** bbox: bounding box, seg. mask: segmentation mask
-> * **Modality** C: camera, L: lidar, O: odometry
-> * **Other** C: complex (magnitude+phase) data, T: temporal data, S: scanned data
-> * **Remarks** Contact: must contact to authors for data acquisition
+> * **[Data Type]** ADC: analog-to-digital converted data, RAD: range-angle-Doppler tensor, PC: point cloud
+> * **[Annot. Type]** bbox: bounding box, seg. mask: segmentation mask
+> * **[Modality]** C: camera, L: lidar, O: odometry
+> * **[Other]** C: complex (magnitude+phase) data, T: temporal data, S: scanned data
+> * **[Remarks]** Contact: must contact to authors for data acquisition
