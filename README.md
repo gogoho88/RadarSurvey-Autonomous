@@ -7,7 +7,7 @@ Contact: jhchoi93@postech.ac.kr
 ## Datasets
 | Dataset | Year | Data Type | Annot. Type | Modality | Other | Link | Remarks |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :---- |
-| nuScenes | 2019 | PC | 3D bbox | C+L+O | T | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.pdf)<br> [Website](https://www.nuscenes.org/) | * Motional<br> * 23 Class |
+| nuScenes | 2019 | PC | 3D bbox | 6C+L+5R+O | T | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.pdf)<br> [Website](https://www.nuscenes.org/) | * Motional<br> * 23 Class |
 | Astyx | 2019 | PC | 3D bbox | C+L | - | [Paper](https://ieeexplore.ieee.org/document/8904734)<br> [Github](https://github.com/under-the-radar/radar_dataset_astyx) | * Astyx<br> * 7 Class |
 | Radar-Lidar | 2019 | RA | - | L+O | T, S, E | [Website](https://sites.google.com/view/dgbicra2019-radar-lidar) | * KAIST<br> * Contact |
 | Radar RobotCar | 2020 | RA | - | C+L+O | T, S | [Paper](https://arxiv.org/pdf/1909.01300.pdf)<br> [Website](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/documentation) | * Oxford Univ. |
