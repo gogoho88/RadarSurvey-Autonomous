@@ -33,7 +33,7 @@ Contact: jhchoi93@postech.ac.kr
 | :----: | :----: | :----: | :----: | :----: |
 | 2020 | IEEE RAL | 1xRxAxD : 3D CNN | Private | [Paper](https://arxiv.org/pdf/2004.12165.pdf)<br> [Github](https://github.com/tudelft-iv/RTCnet/blob/master/README.md) | 
 | 2021 | CRV | DxRxA : 2D CNN | RADDet | [Paper](https://arxiv.org/pdf/2105.00363.pdf)<br> [Github](https://github.com/ZhangAoCanada/RADDet) | 
-| 2021 | ICCV | TxAxD+TxRxD+TxRxA : 3D-2D CNN  | CARRADA | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Ouaknine_Multi-View_Radar_Semantic_Segmentation_ICCV_2021_paper.pdf)<br> [Github](https://github.com/valeoai/MVRSS) | 
+| 2021 | ICCV | 1xTxAxD+1xTxRxD+1xTxRxA : 3D-2D CNN  | CARRADA | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Ouaknine_Multi-View_Radar_Semantic_Segmentation_ICCV_2021_paper.pdf)<br> [Github](https://github.com/valeoai/MVRSS) | 
 
 > **Description & Abbreviations**
 > * **[Encoding]** Left : Right corresponds to the dims. of input radar tensor and its encoding structure, respectively.
