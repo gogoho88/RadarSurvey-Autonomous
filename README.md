@@ -29,12 +29,12 @@ Contact: jhchoi93@postech.ac.kr
 <!--Paper-->
 ## Papers
 ### AI+Radar (Encoding aspect)
-| Year | Journal | Paper | Encoding | Dataset | Link |
-| :----: | :----: | :---- | :----: | :----: | :----: |
-| 2020 | IEEE RAL | CNN based Road User Detection using the 3D Radar Cube | 1 x R x A x D : 3D CNN | Private | [Paper](https://arxiv.org/pdf/2004.12165.pdf)<br> [Github](https://github.com/tudelft-iv/RTCnet/blob/master/README.md) | 
-| 2021 | CRV | RADDet: Range-Azimuth-Doppler based Radar Object Detection for Dynamic Road Users | D x R x A : 2D CNN | RADDet | [Paper](https://arxiv.org/pdf/2105.00363.pdf)<br> [Github](https://github.com/ZhangAoCanada/RADDet) | 
-| 2021 | ICCV | Multi-View Radar Semantic Segmentation | TxAxD + TxRxD + TxRxA : 3D-2D CNN  | CARRADA | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Ouaknine_Multi-View_Radar_Semantic_Segmentation_ICCV_2021_paper.pdf)<br> [Github](https://github.com/valeoai/MVRSS) | 
-| 2022 | CVPR | Raw High-Definition Radar for Multi-Task Learning | 2Nr(I,Q) x R x D : Atrous pre-layer+2D CNN  | RADIal | [Paper](https://arxiv.org/pdf/2112.10646.pdf)<br> [Github](https://github.com/valeoai/radial) | 
+| Year | Journal | Paper | Encoding | Dataset | Link | Remarks |
+| :----: | :----: | ---- | :----: | :----: | :----: | ---- |
+| 2020 | IEEE RAL | CNN based Road User Detection using the 3D Radar Cube | 1 x R x A x D : 3D CNN | Private | [Paper](https://arxiv.org/pdf/2004.12165.pdf)<br> [Github](https://github.com/tudelft-iv/RTCnet/blob/master/README.md) | * Delft Univ. of Tech. |
+| 2021 | CRV | RADDet: Range-Azimuth-Doppler based Radar Object Detection for Dynamic Road Users | D x R x A : 2D CNN | RADDet | [Paper](https://arxiv.org/pdf/2105.00363.pdf)<br> [Github](https://github.com/ZhangAoCanada/RADDet) | * Univ. Ottawa | 
+| 2021 | ICCV | Multi-View Radar Semantic Segmentation | TxAxD + TxRxD + TxRxA : 3D-2D CNN  | CARRADA | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Ouaknine_Multi-View_Radar_Semantic_Segmentation_ICCV_2021_paper.pdf)<br> [Github](https://github.com/valeoai/MVRSS) | * Valeo AI |
+| 2022 | CVPR | Raw High-Definition Radar for Multi-Task Learning | 2Nr(I,Q) x R x D : Atrous pre-layer+2D CNN  | RADIal | [Paper](https://arxiv.org/pdf/2112.10646.pdf)<br> [Github](https://github.com/valeoai/radial) | * Valeo AI |
 
 > **Description & Abbreviations**
 > * **[Encoding]** Left : Right corresponds to the dims. of input radar tensor and its encoding structure, respectively.
